@@ -1,0 +1,58 @@
+{
+  "name": "gemeos",
+  "version": "1.0.0",
+  "description": "Gerenciamento de metricas e ordens de serviço",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Luis Fernando Meireles Arantes",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "extract-loader": "^0.1.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "ngtemplate-loader": "^2.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-input-masks": "^2.6.0",
+    "angular-messages": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "angular-ui-bootstrap": "^2.5.0",
+    "angular-ui-router": "0.4.2",
+    "bootstrap-sass": "^3.3.7",
+    "br-validations": "latest",
+    "bulma": "^0.4.2",
+    "bulmaswatch": "^0.4.1",
+    "jquery": "^3.2.1",
+    "jquery.browser": "^0.1.0",
+    "ngstorage": "^0.3.11",
+    "oclazyload": "^1.1.0",
+    "restangular": "^1.6.1",
+    "screenfull": "^3.3.1",
+    "simple-line-icons": "^2.4.1",
+    "string-mask": "^0.3.0",
+    "ui-router.grant": "^0.1.4"
+  }
+}

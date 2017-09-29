@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Label",
+    "heading": "true"
+  },
+  {
+    "text": "Dashboard",
+    "sref": "default.main",
+    "icon": "icon-speedometer",
+    "alert": "new",
+    "label": "label label-info"
+  },
+  {
+    "text": "Usuários",
+    "sref": "#",
+    "icon": "icon-user",
+    "submenu": [
+      {
+        "text": "Novo usuário",
+        "sref": "user.add",
+        "icon": "icon-user-follow"
+      },
+      {
+        "text": "Listar usuários",
+        "sref": "user.all",
+        "icon": "icon-people"
+      }
+    ]
+  },
+  {
+    "text": "Exemplo niveis menu",
+    "icon": "fa fa-folder-open-o",
+    "sref": "app.multilevel",
+    "submenu": [
+      {
+        "text": "Level 1",
+        "sref": "app.multilevel.level1",
+        "icon": "icon-folder",
+        "submenu": [
+          {"text": "Level1 Item", "sref": "app.multilevel.level1.item", "icon": "fa fa-file"},
+          {
+            "text": "Level 2",
+            "sref": "app.multilevel.level1.level2",
+            "icon": "icon-folder",
+            "submenu": [
+              {
+                "text": "Level 3",
+                "icon": "icon-folder",
+                "sref": "app.multilevel.level1.level2.level3",
+                "submenu": [
+                  {
+                    "text": "Level3 Item",
+                    "sref": "app.multilevel.level1.level2.level3.item",
+                    "icon": "fa fa-file-o"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Label",
+    "heading": "true"
+  },
+  {
+    "text": "Documentation",
+    "sref": "app.documentation",
+    "icon": "icon-graduation",
+    "translate": "sidebar.nav.DOCUMENTATION"
+  }
+]
