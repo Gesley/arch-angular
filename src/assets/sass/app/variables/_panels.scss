@@ -1,0 +1,38 @@
+//== Panels
+//
+//##
+$panel-global-border:         #cfdbe2;
+
+$panel-bg:                    #fff;
+$panel-body-padding:          15px;
+$panel-heading-padding:       10px 15px;
+$panel-footer-padding:        $panel-heading-padding;
+$panel-border-radius:         $border-radius-base;
+
+//** Border color for elements within panels
+$panel-inner-border:          #eee;
+$panel-footer-bg:             #fafafa;
+
+$panel-default-text:          #444;
+$panel-default-border:        $panel-global-border;
+$panel-default-heading-bg:    #fff;
+
+$panel-primary-text:          #fff;
+$panel-primary-border:        $panel-global-border;
+$panel-primary-heading-bg:    $brand-primary;
+
+$panel-success-text:          #fff;
+$panel-success-border:        $panel-global-border;
+$panel-success-heading-bg:    $brand-success;
+
+$panel-info-text:             #fff;
+$panel-info-border:           $panel-global-border;
+$panel-info-heading-bg:       $brand-info;
+
+$panel-warning-text:          #fff;
+$panel-warning-border:        $panel-global-border;
+$panel-warning-heading-bg:    $brand-warning;
+
+$panel-danger-text:           #fff;
+$panel-danger-border:         $panel-global-border;
+$panel-danger-heading-bg:     $brand-danger;

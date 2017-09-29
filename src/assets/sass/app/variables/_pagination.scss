@@ -1,0 +1,19 @@
+//== Pagination
+//
+//##
+
+$pagination-color:                     $text-color;
+$pagination-bg:                        #fff;
+$pagination-border:                    #eee;
+
+$pagination-hover-color:               $link-hover-color;
+$pagination-hover-bg:                  #fafafa;
+$pagination-hover-border:              #eee;
+
+$pagination-active-color:              #fff;
+$pagination-active-bg:                 $brand-primary;
+$pagination-active-border:             $brand-primary;
+
+$pagination-disabled-color:            $gray-light;
+$pagination-disabled-bg:               #fff;
+$pagination-disabled-border:           #eee;

@@ -1,0 +1,108 @@
+@import "~angular/angular-csp.css";
+
+$fa-font-path: "~font-awesome/fonts" !default;
+@import "~font-awesome/scss/font-awesome.scss";
+
+// Override bootstrap variables
+@import "assets/sass/app/variables.scss";
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+$simple-line-font-path: '~simple-line-icons/fonts/';
+@import "~simple-line-icons/scss/simple-line-icons";
+
+// Global definition of media queries
+@import "assets/sass/app/media-queries.scss";
+// Utilities
+@import "assets/sass/app/utils-definitions.scss";
+
+// Bootstrap reset
+@import "assets/sass/app/bootstrap-reset.scss";
+
+// Typography
+@import "assets/sass/app/typo.scss";
+
+// Layout
+@import "assets/sass/app/layout.scss";
+@import "assets/sass/app/layout-extra.scss";
+@import "assets/sass/app/layout-animation.scss";
+@import "assets/sass/app/top-navbar.scss";
+@import "assets/sass/app/sidebar.scss";
+@import "assets/sass/app/offsidebar.scss";
+
+
+// Components
+@import "assets/sass/app/preloader.scss";
+@import "assets/sass/app/breadcrumbs.scss";
+@import "assets/sass/app/loading-bar.scss";
+@import "assets/sass/app/animate.scss";
+@import "assets/sass/app/button-extra.scss";
+@import "assets/sass/app/placeholder.scss";
+@import "assets/sass/app/panels.scss";
+@import "assets/sass/app/progress-extra.scss";
+@import "assets/sass/app/radial-bar.scss";
+@import "assets/sass/app/user-block.scss";
+@import "assets/sass/app/circles.scss";
+@import "assets/sass/app/timeline.scss";
+@import "assets/sass/app/dropdown-extra.scss";
+@import "assets/sass/app/row-extra.scss";
+@import "assets/sass/app/half-float.scss";
+@import "assets/sass/app/masonry-grid.scss";
+@import "assets/sass/app/widget.scss";
+@import "assets/sass/app/typeahead.scss";
+@import "assets/sass/app/table-grid.scss";
+@import "assets/sass/app/todo.scss";
+@import "assets/sass/app/ngwig.scss";
+@import "assets/sass/app/ngdialog.scss";
+@import "assets/sass/app/nestable.scss";
+@import "assets/sass/app/carousel.scss";
+@import "assets/sass/app/masonry-grid-deck.scss";
+
+// Charts
+@import "assets/sass/app/chart-flot.scss";
+@import "assets/sass/app/chart-easypie.scss";
+
+// Form elements
+@import "assets/sass/app/form-elements.scss";
+@import "assets/sass/app/form-imgcrop.scss";
+@import "assets/sass/app/form-validation.scss";
+@import "assets/sass/app/form-tags.scss";
+@import "assets/sass/app/form-wizard.scss";
+@import "assets/sass/app/uiselect.scss";
+@import "assets/sass/app/code-editor.scss";
+
+// Tables
+@import "assets/sass/app/datatable.scss";
+@import "assets/sass/app/table-extras.scss";
+@import "assets/sass/app/table-ngtable.scss";
+@import "assets/sass/app/table-ng-grid.scss";
+@import "assets/sass/app/table-uigrid.scss";
+@import "assets/sass/app/table-angulargrid.scss";
+
+// Plugins
+@import "assets/sass/app/plugins.scss";
+@import "assets/sass/app/slim-scroll.scss";
+@import "assets/sass/app/datepicker.scss";
+@import "assets/sass/app/alerts.scss";
+@import "assets/sass/app/notify.scss";
+@import "assets/sass/app/calendar.scss";
+@import "assets/sass/app/spinner.scss";
+@import "assets/sass/app/gmap.scss";
+@import "assets/sass/app/vector-map.scss";
+@import "assets/sass/app/portlets.scss";
+
+// Mailbox
+@import "assets/sass/app/mailbox.scss";
+
+// Utilities
+@import "assets/sass/app/utils.scss";
+
+// Print CSS
+@import "assets/sass/app/print.scss";
+
+// Settings
+@import "assets/sass/app/settings.scss";
+
+// Documentation
+@import "assets/sass/app/docs.scss";

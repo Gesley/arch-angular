@@ -1,0 +1,129 @@
+<h3>
+    Dashboard
+    <small>{{ app.name}} !</small>
+</h3>
+
+<!-- START widgets box-->
+<div class="row">
+    <div class="col-lg-3 col-sm-6">
+        <!-- START widget-->
+        <div class="panel widget bg-primary">
+            <div class="row row-table">
+                <div class="col-xs-4 text-center bg-primary-dark pv-lg">
+                    <em class="icon-cloud-upload fa-3x"></em>
+                </div>
+                <div class="col-xs-8 pv-lg">
+                    <div class="h2 mt0">1700</div>
+                    <div class="text-uppercase">Uploads</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <!-- START widget-->
+        <div class="panel widget bg-purple">
+            <div class="row row-table">
+                <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+                    <em class="icon-globe fa-3x"></em>
+                </div>
+                <div class="col-xs-8 pv-lg">
+                    <div class="h2 mt0">700
+                        <small>GB</small>
+                    </div>
+                    <div class="text-uppercase">Quota</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <!-- START widget-->
+        <div class="panel widget bg-green">
+            <div class="row row-table">
+                <div class="col-xs-4 text-center bg-green-dark pv-lg">
+                    <em class="icon-bubbles fa-3x"></em>
+                </div>
+                <div class="col-xs-8 pv-lg">
+                    <div class="h2 mt0">500</div>
+                    <div class="text-uppercase">Reviews</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <!-- START date widget-->
+        <div class="panel widget">
+            <div class="row row-table">
+                <div class="col-xs-4 text-center bg-green pv-lg">
+                    <!-- See formats: https://docs.angularjs.org/api/ng/filter/date-->
+                    <div now format="MMMM" class="text-sm"></div>
+                    <br/>
+                    <div now format="d" class="h2 mt0"></div>
+                </div>
+                <div class="col-xs-8 pv-lg">
+                    <div now format="EEEE" class="text-uppercase"></div>
+                    <br/>
+                    <div now format="h:mm:ss" class="h2 mt0"></div>
+                    <div now format="a" class="text-muted text-sm"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END date widget    -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <!-- START widget-->
+        <div class="panel widget">
+            <div class="panel-body">
+                <div class="text-right text-muted">
+                    <em class="fa fa-gamepad fa-2x"></em>
+                </div>
+                <h3 class="mt0">99.999</h3>
+                <p class="text-muted">Games played last month</p>
+                <div class="progress progress-striped progress-xs">
+                    <div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="70" class="progress-bar progress-bar-warning progress-60">
+                        <span class="sr-only">60% Complete</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END widget-->
+    </div>
+    <div class="col-lg-4">
+        <!-- START widget-->
+        <div class="panel widget">
+            <div class="panel-body">
+                <div class="text-right text-muted">
+                    <em class="fa fa-coffee fa-2x"></em>
+                </div>
+                <h3 class="mt0">300</h3>
+                <p class="text-muted">Coffee cups per day</p>
+                <div class="progress progress-striped progress-xs">
+                    <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-green progress-80">
+                        <span class="sr-only">80% Complete</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END widget-->
+    </div>
+    <div class="col-lg-4">
+        <!-- START widget-->
+        <div class="panel widget">
+            <div class="panel-body">
+                <div class="text-right text-muted">
+                    <em class="fa fa-upload fa-2x"></em>
+                </div>
+                <h3 class="mt0">1000 Gb</h3>
+                <p class="text-muted">Average Monthly Uploads</p>
+                <div class="progress progress-striped progress-xs">
+                    <div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info progress-40">
+                        <span class="sr-only">40% Complete</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END widget-->
+    </div>
+</div>
